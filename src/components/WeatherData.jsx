@@ -47,7 +47,7 @@ const WeatherData = ({ weatherData }) => {
               />
               {/*  */}
             </div>
-            <div>
+            <div className="mt-3 flex gap-3">
               <WeatherDetails
                 title="Rise"
                 data={formatToLocalTime(
@@ -55,6 +55,24 @@ const WeatherData = ({ weatherData }) => {
                   weatherData.timeZone,
                   "hh:mm a"
                 )}
+              />
+              <WeatherDetails
+                title="Set"
+                data={formatToLocalTime(
+                  weatherData.sys.sunset,
+                  weatherData.timeZone,
+                  "hh:mm a"
+                )}
+              />
+              <WeatherDetails
+                title="High"
+                data={(((weatherData.main.temp_max - 32) * 5) / 9).toFixed(0)}
+                unit="°"
+              />
+              <WeatherDetails
+                title="Min"
+                data={(((weatherData.main.temp_min - 32) * 5) / 9).toFixed(0)}
+                unit="°"
               />
             </div>
           </div>
