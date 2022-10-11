@@ -50,7 +50,7 @@ checkout-website(folder)
 
 ### Built with
 
-- -React Components, props, states, hooks
+- React Components, props, states, hooks
 
 - API GET requests (Fetch)
 
