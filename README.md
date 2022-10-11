@@ -50,19 +50,15 @@ checkout-website(folder)
 
 ### Built with
 
-- JS Dom , setInterval , getHours, getMinutes, getSeconds
+- -React Components, props, states, hooks
 
-- JS getElementById, querySelector,
+- API GET requests (Fetch)
 
-- Semantic HTML5 markup
+- JSX Elements
 
 - CSS custom properties
 
-- CSS Colors-Border Properties
 
-- CSS Margins-Padding
-
-- CSS Properties for Texts-Font Families-Links
 
 
 ## Notes
